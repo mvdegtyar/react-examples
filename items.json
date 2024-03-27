@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "name": "Chicken Burrito","foodType":"Burrito", "protein":"chicken", "calories":975 },
+    { "name": "Steak Burrito", "foodType":"Burrito", "protein":"steak", "calories":945 },
+    {"name":"Carnitas Burrito", "foodType":"Burrito", "protein":"carnitas", "calories":1005},
+    {"name":"Barbacoa Burrito", "foodType":"Burrito", "protein":"barbacoa", "calories":965},
+    {"name":"Chorizo Burrito", "foodType":"Burrito", "protein":"chorizo", "calories":1095},
+    { "name":"Sofritas Burrito", "foodType":"Burrito", "protein":"sofritas", "calories":945}
+  ]
+}
+
+
