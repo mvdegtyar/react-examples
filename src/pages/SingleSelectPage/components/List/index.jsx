@@ -6,10 +6,10 @@ export const List = () => {
   const [selectedId, setSelectedId] = useState(null);
   
   useEffect(() => {
-    const fetchItems = async () => {
-      const response = await fetch('http://localhost:4000/api/items');
-      const data = await response.json();
-      setItems(data.result);
+      const fetchItems = async () => {
+        const response = await fetch('http://localhost:3000/items');
+        const data = await response.json();
+        setItems(data);
     };
 
     fetchItems();

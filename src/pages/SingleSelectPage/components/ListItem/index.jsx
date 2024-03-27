@@ -5,6 +5,7 @@ export const ListItem = ({ item, selected, onSelect }) => {
       onClick={() => onSelect(item.id)}
     >
       {item.name}
+      {selected && <div>calorie: {item.calories}</div>}
     </div>
   );
 };
