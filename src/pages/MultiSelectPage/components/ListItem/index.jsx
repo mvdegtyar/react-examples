@@ -1,10 +1,12 @@
 import { useState } from 'react';
 
-export const ListItem = ({ item }) => {
+export const ListItem = ({ item, onSelected }) => {
   const [selected, setSelected] = useState(false);
   
   const toggleSelected = () => {
-    setSelected(!selected);
+    const newSelected = !selected;
+    setSelected(newSelected);
+    onSelected(newSelected);
   };
 
   return (
